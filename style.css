@@ -1,0 +1,163 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: #32A38B;
+  color: white;
+}
+.navbar
+{
+  width: 90%;
+  padding: 5vw;
+  padding-top: 15vw;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
+.scorecontainer
+{
+  padding: 5vw;
+  width: 90%;
+  display: flex;
+  flex-direction: right;
+  justify-content: space-around;
+}
+.playarea
+{
+  position: relative;
+  width: 63vw;
+  height: 63vw;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.playarea div
+{
+  height: 21vw;
+  width: 21vw;
+  align-content: center;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+.playarea div:nth-child(1)
+{
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  box-sizing: border-box;
+}
+.playarea div:nth-child(2)
+{
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+}
+.playarea div:nth-child(3)
+{
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  box-sizing: border-box;
+}
+.playarea div:nth-child(4)
+{
+  border-right: 2px solid black;
+  box-sizing: border-box;
+}
+.playarea div:nth-child(5)
+{
+box-sizing: border-box;
+}
+.playarea div:nth-child(6)
+{
+border-left: 2px solid black;
+box-sizing: border-box;
+}
+.playarea div:nth-child(7)
+{
+  border-top: 2px solid black;
+border-right: 2px solid black;
+box-sizing: border-box;
+}
+.playarea div:nth-child(8)
+{
+  border-top: 2px solid black;
+box-sizing: border-box;
+}
+.playarea div:nth-child(9)
+{
+  border-top: 2px solid black;
+border-left: 2px solid black;
+box-sizing: border-box;
+}
+#line1, #line2, #line3, #line4, #line5, #line6, #line7, #line8, #line9
+{
+  position: absolute;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  width: 100%;
+  height: 2vw;
+  background: red;
+  z-index: 1;
+  align-self: center;
+}
+.mainframe
+{
+  position: relative;
+  margin: 15vw;
+  translate: transform(-50%, -50%);
+  justify-items: center;
+  top: 20vw;
+}
+#line1
+{
+  top: 16.666%;
+  left: 50%;
+}
+#line2
+{
+  top: 50%;
+  left: 50%;
+}
+#line3
+{
+  bottom: 13.666%;
+  left: 50%;
+}
+#line4
+{
+  
+  transform: rotate(45deg);
+  transform-origin: center;
+  top: 50%;
+  left: -13.5%;
+  width: 130%;
+}
+#line5
+{
+  
+  transform: rotate(-45deg);
+  transform-origin: center;
+  top: 47%;
+  left: -13.5%;
+  width: 130%;
+}
+#line6
+{
+  transform: rotate(90deg);
+  left: -30%;
+  top: 50%;
+}
+#line7
+{
+  transform: rotate(90deg);
+  top: 50%;
+}
+#line8
+{
+  transform: rotate(90deg);
+  right: -30%;
+  top: 50%;
+}
